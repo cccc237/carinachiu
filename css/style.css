@@ -17,8 +17,59 @@
 } 
 
 
+.intro {
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
+.intro h2 {
+    font-size: 90px;
+    font-weight: 900;
+    color: #ffffff;
+}
 
+.intro #headtext {
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: -1%;
+    margin-bottom: 1%;
+    color: #c8fff2;
+}
+
+.intro p {
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.hero_btn {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero_btn:hover {
+    border: 1px solid #24f8c7;
+    background: #24f8c7;
+    transition: 1s;
+}
+
+nav .fa {
+    display: none;
+}
 
 nav {
     display: flex;
