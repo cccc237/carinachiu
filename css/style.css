@@ -16,36 +16,36 @@
     position: relative; */
 } 
 
-
 .intro {
-    width: 90%;
+    width: 80%;
     color: #ffffff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
 }
 
 .intro h2 {
-    font-size: 90px;
+    font-size: 50px;
     font-weight: 900;
     color: #ffffff;
 }
 
 .intro #headtext {
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 900;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-top: -1%;
     margin-bottom: 1%;
     color: #c8fff2;
 }
 
 .intro p {
-    margin: 10px 0 40px;
+    margin: 10px 0 20px;
     font-size: 18px;
     color: #ffffff;
+    text-align: left;
 }
 
 .hero_btn {
@@ -67,9 +67,6 @@
     transition: 1s;
 }
 
-nav .fa {
-    display: none;
-}
 
 nav {
     display: flex;
