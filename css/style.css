@@ -38,7 +38,7 @@
     /* text-transform: uppercase; */
     margin-top: -1%;
     margin-bottom: 1%;
-    color: #c8fff2;
+    color: #ad87ee;
 }
 
 .intro p {
@@ -48,11 +48,14 @@
     text-align: left;
 }
 
+.fa-linkedin{
+    color: #ffffff;
+}
 .hero_btn {
     position: relative;
     display: inline-block;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 12px 34px;
     font-size: 13px;
