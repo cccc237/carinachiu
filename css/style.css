@@ -9,10 +9,11 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#acd1fa, #949fdf1a), url(images/AIA,png);
+    background-color: #121212
+    /* background-image: linear(#121212), url(images/AIA,png);
     background-position: center;
-    background-size: cover;
-    position: relative; 
+    background-size: cover; 
+    position: relative; */
 } 
 
 
@@ -29,7 +30,7 @@ nav {
 nav .logo {
     text-decoration: none;
     font-size: 24px;
-    color: #031099;
+    color: #FFFFFF;
     font-weight: bold;
 }
 
@@ -54,7 +55,7 @@ nav .fab {
 
 .nav-links ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #FFFFFF;
     font-size: 18px;
 }
 
@@ -62,7 +63,7 @@ nav .fab {
     content: '';
     width: 0%;
     height: 2px;
-    background: #24f8c7;
+    background: #ad87ee;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -90,7 +91,7 @@ nav .fab {
     }
     .nav-links {
         position: fixed;
-        background: #5a47b1fa;
+        background: #545454;
         height: 100vh;
         width: 200px;
         top: 0;
