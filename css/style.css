@@ -174,12 +174,19 @@ nav .fa {
 } 
 
 /* Contact Us Section Start */
-/* 
-.contact {
+
+#contact {
     width: 100%;
+    min-height: 100vh;
     margin: auto;
-    background-color: #303030;
-} */
+    background-color: #222222;
+}
+
+#contact h1{
+    margin-left: 16%;
+    color: #ffffff;
+    font-size: 30px;
+}
 
 .content-col {
     flex-basis: 48%;
@@ -194,7 +201,7 @@ nav .fa {
 
 .row {
     width: 80%;
-    color: #ffffff;
+    color: #ffff;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -204,14 +211,14 @@ nav .fa {
 
 .content-col div .fa {
     font-size: 28px;
-    color: #24f8c7;
+    color: #ad87ee;
     margin: 10px;
     margin-right: 30px;
 }
 
 .content-col div .fab {
     font-size: 28px;
-    color: #24f8c7;
+    color: #ad87ee;
     margin: 10px;
     margin-right: 30px;
 }
@@ -227,6 +234,7 @@ nav .fa {
     color: #ffffff;
     font-weight: 400;
 }
+
 
 .content-col input, .content-col textarea {
     margin-left: 15%;
