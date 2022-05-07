@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carina Chiu</title>
     <link rel="stylesheet" href="css/style.css">
@@ -17,6 +17,7 @@
         <nav>
             <a href="home.html" class="logo">Carina Chiu
             </a>
+
             <div class="nav-links" id="navLinks">
                 <!-- reposnive bar open and close -->
                 <i class="fa fa-times" onclick="hideMenu()"></i>
@@ -35,7 +36,14 @@
         </nav> 
 
         <div class="intro">
-            <img src="images/carinac.jpg" alt="carina" width="300" height="350" align = "right" > 
+            <img class="image-fluid" src="images/carinac.jpg" alt="carina" width='300px' align = "right" > 
+            <style>
+                img{
+                    width:30%;
+                    height: 40%;
+                }
+            </style>
+
             <p id='headtext'> About me </p>
             <br>
             <p> I am a Management Engineering Student at the University of Waterloo 
@@ -44,17 +52,17 @@
          
                 <br> While always open to new opportunities, 
                 I love meeting new people and learning from professionals! 
-                Feel free to send me a message on Linkedln :)
+                Feel free to send me a message on Linkedln :) 
+                &ensp;
+                <a name="logo" href = https://www.linkedin.com/in/carina-chiu-73a51b18a/ class="fab fa-linkedin fa-2x" style="height:30px;"></a>
+            </p>
             <br> 
             <br>
-                 <a name="logo" href = https://www.linkedin.com/in/carina-chiu-73a51b18a/ class="fab fa-linkedin fa-2x" ></a>
-                </p>
-          
-                    <a href = "images/Resume.pdf" class = "hero_btn"> Resume</a>
+                 <button href = "images/Resume.pdf" class="hero_btn" >Resume</button> 
         </div>
 
     </section>
     <script src="script.js"></script>
 </body>
 
-</html>
+</html> 

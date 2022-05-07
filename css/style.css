@@ -10,16 +10,17 @@
     min-height: 100vh;
     width: 100%;
     background-color: #121212
-    /* background-image: linear(#121212), url(images/AIA,png);
-    background-position: center;
-    background-size: cover; 
-    position: relative; */
 } 
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
 
 .intro {
     width: 80%;
     color: #ffffff;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -43,7 +44,7 @@
 
 .intro p {
     margin: 10px 0 20px;
-    font-size: 18px;
+    font-size: 17px;
     color: #ffffff;
     text-align: left;
 }
@@ -51,17 +52,17 @@
 .fa-linkedin{
     color: #ffffff;
 }
+
 .hero_btn {
     position: relative;
     display: inline-block;
     color: #ffffff;
     border: 1px solid #ffffff;
-    border-radius: 5px;
-    padding: 12px 34px;
+    border-radius: 7px;
+    padding: 9px 25px;
     font-size: 13px;
     background: transparent;
     cursor: pointer;
-    text-decoration: none;
 }
 
 .hero_btn:hover {
@@ -124,7 +125,9 @@ nav .fab {
     width: 100%;
 }
 
-
+nav .fa {
+    display: none;
+}
 
 @media(max-width: 700px) {
     .text_box h2 {
@@ -153,7 +156,7 @@ nav .fab {
     }
     nav .fa {
         display: block;
-        color: #ffff;
+        color: #ffffff;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
