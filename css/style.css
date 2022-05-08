@@ -7,21 +7,18 @@
 }
 
 .header {
-    position: fixed;
     min-height: 100vh;
     width: 100%;
     background-color: #121212
 } 
 
 .subheader {
-    position: fixed;
     min-height: 10vh;
     width: 100%;
     background-color: #121212
 } 
 
 .sub-header {
-    position: fixed;
     min-height: 20vh;
     width: 100%;
     background-color: #121212
@@ -207,16 +204,44 @@ nav .fa {
 .edu-col{
     flex-basis: 50%;
     padding: 30px 30px;
-    position: relative;
 }
 
 .edu-col p{
     padding: 15px 0 25px;
-    position: relative;
+}
+/* Education Section End */
+
+.leadership {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: #000000;
+}
+
+.leadership p{
+    font-size: 20px;
 }
 
 
-/* Education Section End */
+#projects
+{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+.d-flex {
+  align-items: center;
+}
+
+.proj{
+      overflow: hidden;
+      height: 30vh;
+    
+      
+    }
+
 
 
 /* Contact Us Section Start */
