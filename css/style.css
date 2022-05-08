@@ -30,7 +30,7 @@
 
 .sub-header h1{
     color:#ad87ee;
-    font-size: 38px;
+    font-size: 35px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -57,12 +57,12 @@
 }
 
 .intro #headtext {
-    font-size: 35px;
+    font-size: 33px;
     font-weight: 900;
     /* text-transform: uppercase; */
     margin-top: -1%;
     margin-bottom: 1%;
-    color: #ad87ee;
+    color: #ffffff;
 }
 
 .intro p {
@@ -104,8 +104,8 @@ nav {
 
 nav .logo {
     text-decoration: none;
-    font-size: 24px;
-    color: #FFFFFF;
+    font-size: 26px;
+    color: #ad87ee;
     font-weight: bold;
 }
 
@@ -189,28 +189,7 @@ nav .fa {
     } 
 } 
 
-/* Education Section Start */
-.education{
-    width: 100%;
-    min-height: 300vh;
-    margin: auto;
-    background-color: #222222;
-}
-
-.education h1{
-    color:#ad87ee;
-}
-
-.edu-col{
-    flex-basis: 50%;
-    padding: 30px 30px;
-}
-
-.edu-col p{
-    padding: 15px 0 25px;
-}
-/* Education Section End */
-
+/* Education & Leadership Section Start */
 .leadership {
     width: 100%;
     min-height: 100vh;
@@ -222,26 +201,144 @@ nav .fa {
     font-size: 20px;
 }
 
-
-#projects
-{
-    background-color: #efefef;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: #777;
+.experience-area {  
+    background-color: #181818;
+    min-height: 130vh;
+  }
+  
+.experience-area h1{
+    color:#ad87ee;
+    font-size: 40px;
 }
 
-.d-flex {
-  align-items: center;
+.experience-area h1{
+    text-align: center;
 }
 
-.proj{
-      overflow: hidden;
-      height: 30vh;
-    
-      
-    }
+  .experience-item {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+    background-color: #f8f4ff;
+  }
 
+  .experience-item2 {
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+    background-color: #f8f4ff;
+  }
+
+  .experience-item p{
+      text-align: left;
+  }
+
+  .experience-item2 p{
+    text-align: left;
+}
+  
+  #hksa {
+    border-left: 7px solid;
+    border-image: linear-gradient(#103cff, rgb(171,210,251));
+    border-image-slice: 1;
+    margin-top:10px;
+  }
+  
+  #i4 {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(44, 255, 36),rgb(178,231,186));
+    border-image-slice: 1;
+  }
+
+  #eng {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 132, 0), rgb(249, 217, 177));
+    border-image-slice: 1;
+  }
+
+  #fm {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 27, 15), rgb(241, 182, 181));
+    border-image-slice: 1;
+  }
+
+/* Education & Leadership Section End */
+
+/* Experience Section Start */
+
+#professionals {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: #181818;
+}
+
+#professionals h2{
+    color: #ad87ee;
+    text-align: center;
+    font-size: 40px;
+}
+
+#experience-timeline>div{
+    background:#fff;
+    padding:10px;
+    margin-bottom:10px;
+    border:1px solid #dcd9d9
+}.no-js 
+
+#experience-timeline>div{
+    border-radius: 8px;
+    width: 50%;
+}.no-js 
+
+
+#experience-timeline h3{
+    font-size:1.5em;
+    font-weight:300;
+    color:#374054;
+    display:inline-block;
+    margin:0
+}.no-js 
+
+#experience-timeline>div h4{
+    font-size:1.2em;
+    font-weight:300;
+    color:#7e8890;
+    margin:0 0 15px 0
+}.no-js 
+
+#experience-timeline>div h4{
+    text-align: left;
+}.no-js 
+
+
+#experience-timeline>div p{
+    color:#74808a;
+    font-size:0.9em;
+    margin-left: %;
+}.no-js 
+
+#experience-timeline>div p{
+    text-align: left;
+}.no-js 
+
+#experience-timeline:before,.no-js 
+
+#experience-timeline:after{content:none}
+
+/* #experience-timeline .date { float:right } */
+
+/* Experience Section End */
 
 
 /* Contact Us Section Start */
@@ -250,7 +347,7 @@ nav .fa {
     width: 100%;
     min-height: 100vh;
     margin: auto;
-    background-color: #222222;
+    background-color: #181818;
 }
 
 #contact h1{
@@ -282,14 +379,14 @@ nav .fa {
 
 .content-col div .fa {
     font-size: 28px;
-    color: #ad87ee;
+    color: #24f8c7;
     margin: 10px;
     margin-right: 30px;
 }
 
 .content-col div .fab {
     font-size: 28px;
-    color: #ad87ee;
+    color: #24f8c7;
     margin: 10px;
     margin-right: 30px;
 }
