@@ -7,16 +7,35 @@
 }
 
 .header {
+    position: fixed;
     min-height: 100vh;
     width: 100%;
     background-color: #121212
 } 
 
 .subheader {
+    position: fixed;
     min-height: 10vh;
     width: 100%;
     background-color: #121212
 } 
+
+.sub-header {
+    position: fixed;
+    min-height: 20vh;
+    width: 100%;
+    background-color: #121212
+} 
+
+.sub-header{
+    text-align: center;
+}
+
+.sub-header h1{
+    color:#ad87ee;
+    font-size: 38px;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
 
 .img-fluid {
@@ -81,7 +100,7 @@
 
 nav {
     display: flex;
-    padding: 2% 6%;
+    padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
 }
@@ -107,7 +126,7 @@ nav .fab {
 .nav-links ul li {
     display: inline-block;
     list-style: none;
-    padding: 4px 8px;
+    padding: 2px 4px;
     position: relative;
     /* text-transform: uppercase; */
 }
@@ -172,6 +191,33 @@ nav .fa {
         padding: 30px;
     } 
 } 
+
+/* Education Section Start */
+.education{
+    width: 100%;
+    min-height: 300vh;
+    margin: auto;
+    background-color: #222222;
+}
+
+.education h1{
+    color:#ad87ee;
+}
+
+.edu-col{
+    flex-basis: 50%;
+    padding: 30px 30px;
+    position: relative;
+}
+
+.edu-col p{
+    padding: 15px 0 25px;
+    position: relative;
+}
+
+
+/* Education Section End */
+
 
 /* Contact Us Section Start */
 
