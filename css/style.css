@@ -297,6 +297,12 @@ nav .fa {
 }.no-js 
 
 #experience-timeline>div{
+    text-align: left;
+    padding-left:20px;
+}.no-js 
+
+
+#experience-timeline>div{
     border-radius: 8px;
     width: 50%;
 }.no-js 
@@ -304,17 +310,18 @@ nav .fa {
 
 #experience-timeline h3{
     font-size:1.5em;
-    font-weight:300;
+    font-weight:500;
     color:#374054;
     display:inline-block;
     margin:0
 }.no-js 
 
 #experience-timeline>div h4{
-    font-size:1.2em;
+    font-size:14px;
     font-weight:300;
     color:#7e8890;
-    margin:0 0 15px 0
+    margin-left: -0.5%;
+    /* margin:0 0 15px 0 */
 }.no-js 
 
 #experience-timeline>div h4{
@@ -325,7 +332,7 @@ nav .fa {
 #experience-timeline>div p{
     color:#74808a;
     font-size:0.9em;
-    margin-left: 1%;
+    margin-left: 0.2%;
 }.no-js 
 
 #experience-timeline>div p{

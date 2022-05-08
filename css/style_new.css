@@ -1,5 +1,9 @@
 /* Project New section Start */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
 
 .subheader {
     min-height: 10vh;
@@ -31,6 +35,8 @@ nav {
     padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
+
 }
 
 nav .logo {
@@ -127,8 +133,8 @@ body {background-color: #242424; overflow-x: hidden; font-family: roboto; -webki
 
 .slider-wrapper div {position: relative;}
 .slider-wrapper {margin-top: 5vw;  margin-left: 11vw;}
-.slide-image {height: 24vw;}
-.slide-image img {width: 24vw; cursor: pointer;}
+.slide-image {height: 30vw;}
+.slide-image img {width: 35vw; cursor: pointer;}
 .slide-content {width: 25vw; color: #fff; padding:4vw 18vw 4vw 9vw;}
 .slide-date {color: #FF7597; font-size: 1.1vw; font-weight: 400; letter-spacing: 0.1vw; padding-bottom: 1.4vw;}
 .slide-title {font-size: 1.2vw; font-weight: 400; letter-spacing: 0.1vw; line-height: 1.55vw; padding-bottom: 1.8vw;}
