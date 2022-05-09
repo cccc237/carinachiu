@@ -133,9 +133,9 @@ body {background-color: #242424; overflow-x: hidden; font-family: roboto; -webki
 
 .slider-wrapper div {position: relative;}
 .slider-wrapper {margin-top: 5vw;  margin-left: 11vw;}
-.slide-image {height: 30vw;}
+.slide-image {height: 25vw;}
 .slide-image img {width: 35vw; cursor: pointer;}
-.slide-content {width: 25vw; color: #fff; padding:4vw 18vw 4vw 9vw;}
+.slide-content {width: 25vw; color: #fff; padding:1.2vw 18vw 4vw 9vw;}
 .slide-date {color: #FF7597; font-size: 1.1vw; font-weight: 400; letter-spacing: 0.1vw; padding-bottom: 1.4vw;}
 .slide-title {font-size: 1.2vw; font-weight: 400; letter-spacing: 0.1vw; line-height: 1.55vw; padding-bottom: 1.8vw;}
 .slide-text {font-size: 0.80vw; line-height: 1.2vw; opacity: 0.8; padding-bottom: 4vw;}
@@ -146,7 +146,7 @@ body {background-color: #242424; overflow-x: hidden; font-family: roboto; -webki
 div.overlay-blue {width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s ease all;}
 div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
 
-.arrows{width: 3.5vw; margin-top: -5.8vw; margin-left: 72vw; position: relative;}
+.arrows{width: 3.5vw; margin-top: -15vw; margin-left: 85vw; position: relative;}
 .arrow {display: inline-block; position: absolute; width: 1.2vw; height: 1.2vw; background: transparent; text-indent: -9999px; border-top: 0.15vw solid #fff; border-left: 0.15vw solid #fff; transition: all .1s ease-in-out; text-decoration: none; color: transparent;
 }
 .arrow:hover {border-color: #24f8c7; border-width: 0.25vw;
