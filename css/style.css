@@ -74,6 +74,7 @@
 
 .fa-linkedin{
     color: #ffffff;
+    font-size: 1vw;
 }
 
 .hero_btn {
@@ -109,10 +110,14 @@ nav .logo {
     font-weight: bold;
 }
 
-nav .fab {
+/* nav .fab {
     font-size: 42px;
     color: #5236f4; 
     color: #24f8c7;
+} */
+
+.white-color{
+    color: white;
 }
 
 .nav-links {
