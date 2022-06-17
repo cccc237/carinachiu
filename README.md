@@ -1,2 +1,2 @@
-# carinachiu
-This is a project to build a website portfolio.
+# About Carina
+https://cccc237.github.io/carinachiu.me/
